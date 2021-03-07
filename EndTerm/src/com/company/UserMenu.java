@@ -160,7 +160,6 @@ public class UserMenu implements Login, CartOperations, displayItems{
         return add(itemName);
     }
 
-    //TODO: ADD Buy option
     public Account deleteItem(Account acc){
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter the name of the item you wish to delete: ");
